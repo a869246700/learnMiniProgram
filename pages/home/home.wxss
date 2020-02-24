@@ -1,0 +1,10 @@
+/* pages/home/home.wxss */
+.title {
+  color: red;
+  font-size: 30px;
+}
+.btn {
+  width: 100px;
+  height: 49px;
+  vertical-align: middle;
+}
