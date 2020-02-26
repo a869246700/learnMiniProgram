@@ -1,0 +1,27 @@
+<!-- 1. image 基本使用 -->
+<!-- 
+    重点：
+      1. image 可以使用单标签, 也可以使用双标签
+      2. image 组件有默认大小 320*240
+      3. image 组件 是一个行内块元素
+   -->
+<!-- <image/> -->
+
+<!-- 2. scr: 本地路径/网路地址 -->
+<image src="/assets/image/1.jpg"/>
+<image src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"/>
+
+<!-- 补充: 相册中的照片 -->
+<button bindtap="handleChooseAlbum">选择图片</button>
+<image src="{{imageSrc}}"/>
+
+<!-- 3. bindload: 监听图片加载完成 -->
+<!-- 4. lazy-load: 图片懒加载 -->
+<image wx:for="{{1}}"
+       src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"         bindload="handleImageLoad"
+       lazy-load/>
+
+<!-- 5. show-menu-by-longpress: 长按图片显示识别小程序码 -->
+<image show-menu-by-longpress
+  src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"
+/>

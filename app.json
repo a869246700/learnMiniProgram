@@ -1,7 +1,11 @@
 {
   "pages": [
-    "pages/home/home",
-    "pages/about/about"
+    "pages/scrollView/scrollView",
+    "pages/input/input",
+    "pages/image/image",
+    "pages/view/view",
+    "pages/button/button",
+    "pages/text/text"
   ],
   "sitemapLocation": "sitemap46.json"
 }

@@ -1,0 +1,21 @@
+<!-- 1. input 的基本使用 -->
+<input />
+
+<!-- 2. value: input的默认值 -->
+<input value="请输入"/>
+
+<!-- 3. type: 确定键盘类型(文本输入键盘/数字/身份证) -->
+<input type="number"/>
+
+<!-- 4. passwprd: 暗文 -->
+<input password/>
+
+<!-- 5. placeholder: 占位符 -->
+<input placeholder="请输入内容"/>
+
+<!-- 6. input绑定事件 -->
+<input 
+  bindinput="handleInput"
+  bindblur="handleBlur"
+  bindfocus="handleFocus"
+/>
