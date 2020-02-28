@@ -1,3 +1,24 @@
 <!--pages/home/home.wxml-->
-<text class="title">Hello World</text>
-<button size="mini" class="btn">按钮</button>
+<!-- <text class="title">Hello World</text>
+<button size="mini" class="btn">按钮</button> -->
+
+<!-- 1. 使用自定义组件 -->
+<!-- <my-cpn/> -->
+
+<!-- 2. 自定义组件的样式细节 -->
+<!-- <my-style/> -->
+
+<!-- 3. 给自定义组件传递数据/样式 -->
+<!-- <my-prop title="哈哈" titleclass="red"/>
+<my-prop title="嘿嘿" titleclass="blue"/>
+<my-prop titleclass="green"/> -->
+
+<!-- 4. 自定义组件的事件 -->
+<!-- <view>当前计数: {{count}}</view>
+<my-event bind:increment="handleIncrement"/> -->
+
+<!-- 5. tab-control  -->
+<w-tab-control 
+  titles="{{ ['首页','分类', '钱包', '爱好'] }}"
+  bind:itemClick="handleTabClick"
+/>

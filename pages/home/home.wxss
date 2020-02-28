@@ -8,3 +8,15 @@
   height: 49px;
   vertical-align: middle;
 }
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.green {
+  color: green;
+}
