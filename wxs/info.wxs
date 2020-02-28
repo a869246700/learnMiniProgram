@@ -1,0 +1,11 @@
+var message = "hello world"
+
+function getTime() {
+  var timer = 1560598160
+  return timer
+}
+
+module.exports = {
+  getTime: getTime,
+  message: message
+}

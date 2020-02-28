@@ -1,0 +1,24 @@
+<!-- 1. wx:for 基本使用 -->
+<view wx:for="{{10}}">{{item + ' ' + index}}</view>
+
+<view>--------------</view>
+
+<!-- 2.block标签 -->
+<!-- block 不会进行渲染，不会消耗性能 -->
+<block wx:for="{{3}}">
+  <view>你好</view>
+  <button>按钮</button>
+</block>
+
+<view>----------</view>
+
+
+<!-- 3. item 和 index 起名字  -->
+
+<!-- wx:for-item="修改的item名称" -->
+<view wx:for="{{students}}" wx:for-item="student">{{student}}</view>
+<!-- wx:for-index="修改的index名称" -->
+<view wx:for="{{students}}" wx:for-index="i">{{i}}</view>
+
+
+<!-- 4. key 的作用 -->

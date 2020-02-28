@@ -1,0 +1,18 @@
+<!--pages/template/template.wxml-->
+
+<!-- template 模板语法 -->
+
+<!-- 1. 起名 name -->
+<!-- <template name="contentItem">
+  <button>{{btnText}}</button>
+  <view>{{content}}</view>
+</template> -->
+
+<!-- 模板中包裹的内容，在使用前是不会被渲染的 -->
+
+<!-- 2. 使用模板 is -->
+<template is="contentItem" data="{{btnText: '警告', content: '哈哈哈'}}"/>
+<template is="contentItem" data="{{btnText: '登录', content: '嘿嘿嘿'}}"/>
+
+<!-- 模板的引用   -->
+<import src="/wxml/template.wxml"/>

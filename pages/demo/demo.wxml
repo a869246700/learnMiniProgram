@@ -1,0 +1,5 @@
+<!--pages/demo/demo.wxml-->
+
+<wxs src="../../wxs/info.wxs" module="info"/>
+<view>{{info.message}}</view>
+<view>{{info.getTime()}}</view>
