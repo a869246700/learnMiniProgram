@@ -1,0 +1,5 @@
+<!--pages/detail/detail.wxml-->
+<navigator url="/pages/comment/comment">跳转到评论页</navigator>
+<navigator open-type="navigateBack">返回</navigator>
+
+<button size="mini" bind:tap="handlePushBack">返回</button>
